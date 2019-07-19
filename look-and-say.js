@@ -1,5 +1,7 @@
 const run = (sequence) => {
-  return ""
+  if(!!sequence) return "";
+
+  return null
 }
 
 module.exports = {
