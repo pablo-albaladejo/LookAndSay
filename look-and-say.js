@@ -1,5 +1,6 @@
 const run = (sequence) => {
-  if(!!sequence) return "";
+  if(!sequence) return "";
+
   return ""
 }
 
