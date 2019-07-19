@@ -5,7 +5,7 @@ const run = (sequence) => {
   let acc = 0;
   let result = []
 
-  sequence.split(sequence).forEach((element, index) => {
+  sequence.split('').forEach((element, index) => {
     if(!currentChar){
       currentChar = element;
       acc = 1
@@ -17,7 +17,7 @@ const run = (sequence) => {
     }
   });
 
-  return result
+  return result.join('')
 }
 
 module.exports = {
