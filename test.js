@@ -12,9 +12,9 @@ describe('is valid output', () => {
 
 describe('sum continuous numbers', () => {
 
-  it('11111 is 51', () => {
-    const sequence = "11111";
+  it('1 is 11', () => {
+    const sequence = "1";
     const result = lookAndSay.run(sequence);
-    expect(result).to.equal("51");
+    expect(result).to.equal("11");
   });
 })
