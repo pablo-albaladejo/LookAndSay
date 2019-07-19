@@ -17,4 +17,10 @@ describe('sum continuous numbers', () => {
     const result = lookAndSay.run(sequence);
     expect(result).to.equal("11");
   });
+
+  it('11 is 21', () => {
+    const sequence = "11";
+    const result = lookAndSay.run(sequence);
+    expect(result).to.equal("21");
+  });
 })

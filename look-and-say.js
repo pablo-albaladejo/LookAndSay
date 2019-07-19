@@ -6,12 +6,12 @@ const run = (sequence) => {
   let result = []
 
   sequence.split('').forEach((element, index) => {
-    if(!currentChar){
+    if (!currentChar) {
       currentChar = element;
       acc = 1
     }
 
-    if (index === sequence.length -1) {
+    if (index === sequence.length - 1) {
       result.push(acc)
       result.push(currentChar)
     }
