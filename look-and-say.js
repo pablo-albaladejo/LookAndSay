@@ -8,17 +8,20 @@ const run = (sequence) => {
   let result = []
 
   sequence.split('').forEach((element, index) => {
-    if ((element !== currentChar)) {
+    acc++;
+    if (!currentChar) currentChar = element;
+
+
+    if ((element !== currentChar) || (index === sequence.length - 1)) {
+
+      result.push(acc)
+      result.push(currentChar)
+
       currentChar = element;
       acc = 0
     }
 
-    acc++;
 
-    if (index === sequence.length - 1) {
-      result.push(acc)
-      result.push(currentChar)
-    }
   });
 
   return result.join('')
