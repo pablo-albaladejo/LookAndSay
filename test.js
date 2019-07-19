@@ -5,6 +5,6 @@ describe('isAString', () => {
   const sequence = "111221";
   it('is not null', () => {
       const result = lookAndSay.run(sequence);
-      expect(result).to.not(null);
+      expect(result).to.not.equal(null);
   });
 })
