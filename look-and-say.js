@@ -8,8 +8,9 @@ const run = (sequence) => {
   sequence.split('').forEach((element, index) => {
     if (!currentChar) {
       currentChar = element;
-      acc = 1
+      acc = 0
     }
+    acc++;
 
     if (index === sequence.length - 1) {
       result.push(acc)
