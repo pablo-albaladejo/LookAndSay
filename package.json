@@ -1,0 +1,24 @@
+{
+	"name": "look-and-say",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "mocha --reporter spec './test.js' -w"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/pablo-albaladejo/LookAndSay.git"
+	},
+	"author": "Pablo Albaladejo Mestre <pablo.albaladejo.mestre@gmail.com> (https://github.com/pablo-albaladejo)",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/pablo-albaladejo/LookAndSay/issues"
+	},
+	"homepage": "https://github.com/pablo-albaladejo/LookAndSay#readme",
+	"devDependencies": {
+		"debug": "^4.1.0",
+		"expect.js": "^0.3.1",
+		"mocha": "^5.2.0"
+	}
+}
