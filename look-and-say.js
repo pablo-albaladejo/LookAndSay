@@ -1,3 +1,5 @@
+
+
 const run = (sequence) => {
   if (!sequence) return "";
 
@@ -6,10 +8,11 @@ const run = (sequence) => {
   let result = []
 
   sequence.split('').forEach((element, index) => {
-    if (!currentChar) {
+    if ((element !== currentChar)) {
       currentChar = element;
       acc = 0
     }
+
     acc++;
 
     if (index === sequence.length - 1) {
